@@ -1,0 +1,210 @@
+/* -----------------------
+all font 
+--------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* ----------------------
+Menu section start 
+-------------------------*/
+.top-menu{
+    background-color: rgb(248, 250, 252);
+    box-shadow: rgb(197, 197, 197) 5px 5px 10px;
+    display: flex;
+}
+.logo{
+    display: flex;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+}
+.logo:hover{
+    color: green;
+}
+.menu-text{
+    display: flex;
+    color: rgb(22, 22, 22);
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 5px;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+
+}
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 100px;
+}
+h2:hover{
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    padding: 10px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+/*-------------------------
+Top Body section 
+---------------------------*/
+.top-section-div{
+    display: flex;
+    width: auto;
+    padding: 100px;
+}
+.main-h1{
+    color: rgb(76, 73, 83);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.head-text-div{
+    width: 70%;
+}
+.head-img-div{
+    width: 50%;
+    margin-left: 200px;
+    margin-right: auto;
+    background-image: url(images/Circle\ design.svg);  
+}
+.head-img-div:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+p{
+    font-size: 20px;
+    line-height: 40px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+.buy-button{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: rgb(197, 197, 197) 5px 5px 10px;
+}
+.buy-button:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(15, 68, 245);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: rgb(197, 197, 197) 5px 5px 10px;
+
+}
+.top-img{
+    width: 500px;
+    margin-right: auto;
+}
+/*-------------------------
+ Brand logo
+ -------------------------  */
+ .gird-flex-item{
+     margin: 100px;
+ }
+ .brand-logo-div{
+    display: flex;
+    border-top: rgb(212, 212, 212)1px solid;
+    border-bottom: rgb(212, 212, 212) 1px solid;
+    align-items: center;
+    justify-content: center;
+ }         
+.brand-logo{
+    margin-left: 100px;
+    padding: 20px;
+}
+/* Post Items  */
+.item-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+}
+.post-item-heading{
+    text-align: center;
+    font-size: 40px;
+    margin: 100px;
+    margin-bottom: 50px;
+}
+.post-item-box{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    border: rgb(255, 255, 255) 2px solid;
+    box-shadow: rgb(174, 187, 202) 0px 0px 20px;
+}
+.post-item-image{
+    width: 400px;
+    border: rgb(165, 165, 165) 1px solid;
+    border-radius: 10px;
+}
+.h1-grid-head{
+    font-size: 30px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: auto;
+}
+.p-grid-price{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: auto;
+}
+.grid-ratting{
+    margin: 0 auto;
+    text-align: left;
+    width: auto;
+}
+.small-paragraph{
+    margin: 0 auto; 
+    width: auto;
+    line-height: 30px;
+}
+.see-more{
+    color: red;
+    text-align: right;
+    margin-left: -150px;
+}
+/*------------------------
+ footer
+ ------------------------*/
+ footer{
+     background-color: rgb(13, 20, 27);
+     text-align: center;
+     padding: 30px;
+     color: gray;
+    }
+.footer-logo{
+    font-size: 50px; 
+    color: white;
+    margin: 0;  
+}
+.social-icon{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr) ;
+     width: 7%;
+     margin:auto;
+     padding: 10px 10px 5px 10px;
+     color: honeydew;
+     background-color: rgb(167, 167, 168);
+     grid-gap: 5px;
+     border-radius: 10px; 
+ }
+ /* media Queries  */
+ @media only screen and (max-width:688px){
+.menu .top-section .brand-logo-section .gird-flex-item .item-div{
+    grid-template-columns: repeat(1, 1fr);
+}
+.top-section{
+    grid-template-columns: repeat(1, 1fr);
+}
